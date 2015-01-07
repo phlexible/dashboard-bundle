@@ -1,3 +1,7 @@
+Ext.provide('Phlexible.dashboard.PortalPanel');
+
+Ext.require('Ext.ux.Portal');
+
 Phlexible.dashboard.PortalPanel = Ext.extend(Ext.ux.Portal, {
     store: Phlexible.dashboard.store.Portlet,
     cls: 'p-dashboard-portal-panel',

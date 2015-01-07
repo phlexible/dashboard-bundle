@@ -1,4 +1,6 @@
-Ext.ns('Ext.ux');
+Ext.provide('Ext.ux.Portal');
+
+Ext.require('Ext.ux.PortalColumn');
 
 Ext.ux.Portal = Ext.extend(Ext.Panel, {
     layout: 'column',

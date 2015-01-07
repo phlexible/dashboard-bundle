@@ -1,3 +1,8 @@
+Ext.provide('Phlexible.dashboard.MainPanel');
+
+Ext.require('Phlexible.dashboard.ListPanel');
+Ext.require('Phlexible.dashboard.PortalPanel');
+
 Phlexible.dashboard.MainPanel = Ext.extend(Ext.Panel, {
     title: 'Start',
     iconCls: 'p-dashboard-component-icon',
